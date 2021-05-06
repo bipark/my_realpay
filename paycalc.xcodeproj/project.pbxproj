@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397119FFF738B2ADD38FC5D5 /* Pods_paycalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747D431473CBADEA3CE60E36 /* Pods_paycalc.framework */; };
+		CC0A454C263988EC004FBC23 /* paycalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A454B263988EC004FBC23 /* paycalcApp.swift */; };
+		CC0A454E263988EC004FBC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A454D263988EC004FBC23 /* ContentView.swift */; };
+		CC0A4550263988EE004FBC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0A454F263988EE004FBC23 /* Assets.xcassets */; };
+		CC0A4553263988EE004FBC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0A4552263988EE004FBC23 /* Preview Assets.xcassets */; };
+		CC0A455E263989C2004FBC23 /* PayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A455D263989C2004FBC23 /* PayHelper.swift */; };
+		CC0A4560263989F3004FBC23 /* PayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A455F263989F3004FBC23 /* PayModel.swift */; };
+		CC0A456226398A08004FBC23 /* PayTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456126398A08004FBC23 /* PayTable.swift */; };
+		CC0A456426398A28004FBC23 /* SaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456326398A28004FBC23 /* SaveModel.swift */; };
+		CC0A456626398A45004FBC23 /* PayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456526398A45004FBC23 /* PayListView.swift */; };
+		CC0A456826398A61004FBC23 /* PayListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456726398A61004FBC23 /* PayListDetail.swift */; };
+		CC0A456A26398A7C004FBC23 /* PayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456926398A7C004FBC23 /* PayListCell.swift */; };
+		CC0A456C26398A94004FBC23 /* PayFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456B26398A94004FBC23 /* PayFormView.swift */; };
+		CC0A456E26398AB0004FBC23 /* MyPayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456D26398AB0004FBC23 /* MyPayButton.swift */; };
+		CC0A457026398AC9004FBC23 /* MyPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A456F26398AC9004FBC23 /* MyPayView.swift */; };
+		CC0A457226398AE3004FBC23 /* PayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A457126398AE3004FBC23 /* PayRowView.swift */; };
+		CC0A457426398AFC004FBC23 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A457326398AFC004FBC23 /* SettingsView.swift */; };
+		CC339C5B263B9B6A00FA88F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC339C5A263B9B6A00FA88F4 /* GoogleService-Info.plist */; };
+		CCD3920126429F4500D7D638 /* MyShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3920026429F4500D7D638 /* MyShareButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22013FECDEFD226D5C4350E4 /* Pods-paycalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paycalc.debug.xcconfig"; path = "Target Support Files/Pods-paycalc/Pods-paycalc.debug.xcconfig"; sourceTree = "<group>"; };
+		747D431473CBADEA3CE60E36 /* Pods_paycalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paycalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B934F06F0DA4C73CDD0BE07B /* Pods-paycalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paycalc.release.xcconfig"; path = "Target Support Files/Pods-paycalc/Pods-paycalc.release.xcconfig"; sourceTree = "<group>"; };
+		CC0A4548263988EC004FBC23 /* paycalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paycalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0A454B263988EC004FBC23 /* paycalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paycalcApp.swift; sourceTree = "<group>"; };
+		CC0A454D263988EC004FBC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC0A454F263988EE004FBC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0A4552263988EE004FBC23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC0A4554263988EE004FBC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0A455D263989C2004FBC23 /* PayHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayHelper.swift; sourceTree = "<group>"; };
+		CC0A455F263989F3004FBC23 /* PayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayModel.swift; sourceTree = "<group>"; };
+		CC0A456126398A08004FBC23 /* PayTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTable.swift; sourceTree = "<group>"; };
+		CC0A456326398A28004FBC23 /* SaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveModel.swift; sourceTree = "<group>"; };
+		CC0A456526398A45004FBC23 /* PayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayListView.swift; sourceTree = "<group>"; };
+		CC0A456726398A61004FBC23 /* PayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayListDetail.swift; sourceTree = "<group>"; };
+		CC0A456926398A7C004FBC23 /* PayListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayListCell.swift; sourceTree = "<group>"; };
+		CC0A456B26398A94004FBC23 /* PayFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFormView.swift; sourceTree = "<group>"; };
+		CC0A456D26398AB0004FBC23 /* MyPayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPayButton.swift; sourceTree = "<group>"; };
+		CC0A456F26398AC9004FBC23 /* MyPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPayView.swift; sourceTree = "<group>"; };
+		CC0A457126398AE3004FBC23 /* PayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRowView.swift; sourceTree = "<group>"; };
+		CC0A457326398AFC004FBC23 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC339C5A263B9B6A00FA88F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCD3920026429F4500D7D638 /* MyShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShareButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0A4545263988EC004FBC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397119FFF738B2ADD38FC5D5 /* Pods_paycalc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9EF0EFB277E45DF7FB9F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747D431473CBADEA3CE60E36 /* Pods_paycalc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		901F98316C3559AE045C3974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22013FECDEFD226D5C4350E4 /* Pods-paycalc.debug.xcconfig */,
+				B934F06F0DA4C73CDD0BE07B /* Pods-paycalc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC0A453F263988EB004FBC23 = {
+			isa = PBXGroup;
+			children = (
+				CC0A454A263988EC004FBC23 /* paycalc */,
+				CC0A4549263988EC004FBC23 /* Products */,
+				901F98316C3559AE045C3974 /* Pods */,
+				1E9EF0EFB277E45DF7FB9F86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0A4549263988EC004FBC23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A4548263988EC004FBC23 /* paycalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0A454A263988EC004FBC23 /* paycalc */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A455C26398936004FBC23 /* Views */,
+				CC0A455B2639892E004FBC23 /* Model */,
+				CC0A455A26398924004FBC23 /* Helper */,
+				CC0A454B263988EC004FBC23 /* paycalcApp.swift */,
+				CC0A454D263988EC004FBC23 /* ContentView.swift */,
+				CC0A454F263988EE004FBC23 /* Assets.xcassets */,
+				CC339C5A263B9B6A00FA88F4 /* GoogleService-Info.plist */,
+				CC0A4554263988EE004FBC23 /* Info.plist */,
+				CC0A4551263988EE004FBC23 /* Preview Content */,
+			);
+			path = paycalc;
+			sourceTree = "<group>";
+		};
+		CC0A4551263988EE004FBC23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A4552263988EE004FBC23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC0A455A26398924004FBC23 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A455D263989C2004FBC23 /* PayHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CC0A455B2639892E004FBC23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A455F263989F3004FBC23 /* PayModel.swift */,
+				CC0A456126398A08004FBC23 /* PayTable.swift */,
+				CC0A456326398A28004FBC23 /* SaveModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC0A455C26398936004FBC23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0A456526398A45004FBC23 /* PayListView.swift */,
+				CC0A456726398A61004FBC23 /* PayListDetail.swift */,
+				CC0A456926398A7C004FBC23 /* PayListCell.swift */,
+				CC0A456B26398A94004FBC23 /* PayFormView.swift */,
+				CC0A456D26398AB0004FBC23 /* MyPayButton.swift */,
+				CC0A456F26398AC9004FBC23 /* MyPayView.swift */,
+				CC0A457126398AE3004FBC23 /* PayRowView.swift */,
+				CC0A457326398AFC004FBC23 /* SettingsView.swift */,
+				CCD3920026429F4500D7D638 /* MyShareButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0A4547263988EC004FBC23 /* paycalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0A4557263988EE004FBC23 /* Build configuration list for PBXNativeTarget "paycalc" */;
+			buildPhases = (
+				CAB16F20DF3F29CF56A0477B /* [CP] Check Pods Manifest.lock */,
+				CC0A4544263988EC004FBC23 /* Sources */,
+				CC0A4545263988EC004FBC23 /* Frameworks */,
+				CC0A4546263988EC004FBC23 /* Resources */,
+				6BB18A255140B2564F62DB70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paycalc;
+			productName = paycalc;
+			productReference = CC0A4548263988EC004FBC23 /* paycalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0A4540263988EB004FBC23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CC0A4547263988EC004FBC23 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CC0A4543263988EB004FBC23 /* Build configuration list for PBXProject "paycalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0A453F263988EB004FBC23;
+			productRefGroup = CC0A4549263988EC004FBC23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0A4547263988EC004FBC23 /* paycalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0A4546263988EC004FBC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0A4553263988EE004FBC23 /* Preview Assets.xcassets in Resources */,
+				CC0A4550263988EE004FBC23 /* Assets.xcassets in Resources */,
+				CC339C5B263B9B6A00FA88F4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB18A255140B2564F62DB70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paycalc/Pods-paycalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paycalc/Pods-paycalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paycalc/Pods-paycalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB16F20DF3F29CF56A0477B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paycalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0A4544263988EC004FBC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0A4560263989F3004FBC23 /* PayModel.swift in Sources */,
+				CC0A457026398AC9004FBC23 /* MyPayView.swift in Sources */,
+				CC0A456C26398A94004FBC23 /* PayFormView.swift in Sources */,
+				CC0A455E263989C2004FBC23 /* PayHelper.swift in Sources */,
+				CC0A456A26398A7C004FBC23 /* PayListCell.swift in Sources */,
+				CCD3920126429F4500D7D638 /* MyShareButton.swift in Sources */,
+				CC0A456426398A28004FBC23 /* SaveModel.swift in Sources */,
+				CC0A456226398A08004FBC23 /* PayTable.swift in Sources */,
+				CC0A457426398AFC004FBC23 /* SettingsView.swift in Sources */,
+				CC0A456626398A45004FBC23 /* PayListView.swift in Sources */,
+				CC0A454E263988EC004FBC23 /* ContentView.swift in Sources */,
+				CC0A456E26398AB0004FBC23 /* MyPayButton.swift in Sources */,
+				CC0A454C263988EC004FBC23 /* paycalcApp.swift in Sources */,
+				CC0A456826398A61004FBC23 /* PayListDetail.swift in Sources */,
+				CC0A457226398AE3004FBC23 /* PayRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC0A4555263988EE004FBC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC0A4556263988EE004FBC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0A4558263988EE004FBC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22013FECDEFD226D5C4350E4 /* Pods-paycalc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 40;
+				DEVELOPMENT_ASSET_PATHS = "\"paycalc/Preview Content\"";
+				DEVELOPMENT_TEAM = W9324F4M6V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = paycalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtlink.paycalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0A4559263988EE004FBC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B934F06F0DA4C73CDD0BE07B /* Pods-paycalc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 40;
+				DEVELOPMENT_ASSET_PATHS = "\"paycalc/Preview Content\"";
+				DEVELOPMENT_TEAM = W9324F4M6V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = paycalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtlink.paycalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0A4543263988EB004FBC23 /* Build configuration list for PBXProject "paycalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0A4555263988EE004FBC23 /* Debug */,
+				CC0A4556263988EE004FBC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0A4557263988EE004FBC23 /* Build configuration list for PBXNativeTarget "paycalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0A4558263988EE004FBC23 /* Debug */,
+				CC0A4559263988EE004FBC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC0A4540263988EB004FBC23 /* Project object */;
+}
